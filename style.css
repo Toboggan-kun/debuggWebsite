@@ -1,0 +1,33 @@
+/*				ONGLETS				*/
+#tab{
+	position: absolute;
+    list-style-type : none;
+    padding : 0px;
+    left: 60%;
+    margin-top : 10;
+    margin-bottom: 10;
+    color: black;
+}
+#tab li{
+    float : left;
+    height : 21px; 
+    margin : 1px 2px 0 2px;
+
+}
+
+#tab li.active{
+   color: yellow;
+
+}
+#tab a{
+    display : block;
+    text-decoration : none;
+    padding : 10px;
+}
+#tab a:hover{
+    color : blue;
+}
+#menu{
+    border-bottom : 1px solid black;
+    padding-bottom : 70px;
+}
